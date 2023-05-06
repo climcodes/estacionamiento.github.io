@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,61 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Estacionamiento Buap</title>
 </head>
+
 <body>
-    
+    <div class="bg-[#092073] h-24 grid justify-center">
+        <div class="text-center grid content-center">
+            <h1 class="text-3xl text-[#8BB7f9] font-bold">ESTACIONAMIENTO BUAP</h1>
+        </div>
+    </div>
+
+    <main class="bg-[#35B1F6] h-auto">
+        <div class="bg-white h-28 grid justify-center">
+            <div class="mx-auto my-auto text-center">
+                <h1 class="text-3xl text-black font-bold">Crea tu cuenta</h1>
+            </div>
+        </div>
+
+        <div class="w-2/5 pt-9 pb-12 mx-auto">
+            <form action="" class="bg-[#C9F0F9] grid-rows-7 pt-9 pb-9 pl-6 pr-6 border rounded-3xl">
+                <div class="grid grid-cols-2 gap-9">
+                    <input class="border rounded py-2 px-3" type="text" id="nombres" placeholder="Nombre (s)">
+                    <input class="border rounded py-2 px-3" type="text" id="apellidos" placeholder="Apellidos">
+                </div>
+                <div class="grid pt-6">
+                    <input class="border rounded py-2 px-3 mx-3" type="text" id="email" placeholder="Correo Institucional">
+                </div>
+                <div class="grid pt-6 grid justify-center">
+                    <input class="w-full border rounded py-2 px-3" type="text" id="matricula" placeholder="Matricula">
+                </div>
+                
+                <div class="grid grid-cols-2 gap-9 pt-6">
+                    <select class="text-gray-400 border rounded py-2 px-3 ml-3" id="carrera">
+                        <option " selected>Carrera</option>
+                    </select>
+                    <select class="text-gray-400 border rounded py-2 px-3 mr-3" id="semestre">
+                        <option selected>Semestre</option>
+                    </select>
+                </div>
+                <div class="grid pt-6">
+                    <input class="border rounded py-2 px-3 mx-12" type="password" id="password" placeholder="Ingresa tu contraseña">
+                </div>
+                <div class="grid pt-6 pb-12">
+                    <input class="border rounded py-2 px-3 mx-12" type="password" id="password2" placeholder="Confirma tu contraseña">
+                </div>
+                <div class="grid pt-16">
+                    <button class="bg-[#d12e2eb8] text-white font-bold py-2 px-4 mx-12 rounded"> Registrarte</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <div class="bg-[#858484] h-20 grid justify-center">
+        <div class="text-center grid content-center">
+            <h1 class="text-xl text-white ">© 2023 ESTACIONAMIENTO-BUAP</h1>
+        </div>
+    </div>
 </body>
+
 </html>
